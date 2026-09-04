@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #0a0a0f;
+}
+
+body {
+  margin: 0;
+  background: #0a0a0f;
+  font-family: var(--font-inter), Inter, system-ui, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
